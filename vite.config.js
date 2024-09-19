@@ -5,7 +5,7 @@ import react from "@vitejs/plugin-react-swc"; // this on might be "import react 
 export default defineConfig(({ command }) => {
   const config = {
     plugins: [react()],
-    base: "/",
+    base: "/portfolio",
   };
 
   if (command !== "serve") {
