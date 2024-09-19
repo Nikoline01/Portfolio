@@ -2,10 +2,10 @@ import { useState, useEffect } from "react";
 
 export default function AboutItem() {
   const images = [
-    "./img/miget.JPG",
-    "/img/migto.JPG",
-    "/img/migtrer.JPG",
-    "/img/migfire.JPG",
+    "./src/img/miget.JPG",
+    "/src/img/migto.jpg",
+    "/src/img/migtrer.JPG",
+    "/src/img/migfire.JPG",
   ];
 
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
