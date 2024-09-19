@@ -5,11 +5,11 @@ import react from "@vitejs/plugin-react-swc"; // this on might be "import react 
 export default defineConfig(({ command }) => {
   const config = {
     plugins: [react()],
-    base: "/portfolio",
+    base: "/",
   };
 
   if (command !== "serve") {
-    config.base = "/portfolio/";
+    config.base = "/react-vite-rest-post-app-with-auth/";
   }
 
   return config;
