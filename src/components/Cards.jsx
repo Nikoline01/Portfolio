@@ -1,4 +1,4 @@
-import CardsItem from "../assets/CardsItem";
+import CardsItem from "./CardsItem";
 
 export default function Cards() {
   return (
